@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/10/2020, 01:33:50
+    Author     : Aline
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    color: white;
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+    text-align: center;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body,
+input, 
+button,
+textarea{
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
+.form-style{
+    border: none;
+    border-radius: 0.5rem;
+}
+
+input[type=text]{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=number]{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=email]{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#btn-style{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0.5rem;
+    width: 12rem;
+    height: 4.5rem;
+    text-align: center;
+}
+
+#btn-style:hover {
+    background: #808080;
+    color: white;
+}
+
+table {
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    color: #00c7c7;
+    align-content: center;
+    margin: auto;
+}
+
+body a{
+    color: white;
+}
+
+
+th, td{
+    padding: 15px;
+}
+
+
+.select-style{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0.5rem;
+    width: 15rem;
+    height: 4.5rem;
+    text-align: center;
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
